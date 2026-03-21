@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Node.js Streams Explained",
+    "url": "https://example.com/node-streams",
+    "description": "A comprehensive guide to Node.js streams and their use cases",
+    "category": "dev",
+    "tags": ["node", "backend", "stream"],
+    "isFavorite": true
+  },
+  {
+    "title": "Express Middleware Guide",
+    "url": "https://example.com/express-middleware",
+    "description": "Understanding how Express middleware works with real examples",
+    "category": "dev",
+    "tags": ["express", "backend", "api"],
+    "isFavorite": false
+  },
+  {
+    "title": "MongoDB Index Basics",
+    "url": "https://example.com/mongodb-index",
+    "description": "Introduction to MongoDB indexes and performance optimization",
+    "category": "dev",
+    "tags": ["mongodb", "database", "backend"],
+    "isFavorite": true
+  },
+  {
+    "title": "REST API Design Best Practices",
+    "url": "https://example.com/rest-api",
+    "description": "Best practices for designing clean and scalable REST APIs",
+    "category": "dev",
+    "tags": ["api", "backend", "rest"],
+    "isFavorite": false
+  },
+  {
+    "title": "Understanding the JavaScript Event Loop",
+    "url": "https://example.com/event-loop",
+    "description": "Deep dive into how the JavaScript event loop works",
+    "category": "dev",
+    "tags": ["javascript", "node", "eventloop"],
+    "isFavorite": true
+  },
+  {
+    "title": "React Hooks Deep Dive",
+    "url": "https://example.com/react-hooks",
+    "description": "In-depth explanation of React Hooks and how they work internally",
+    "category": "dev",
+    "tags": ["react", "frontend", "hooks"],
+    "isFavorite": false
+  },
+  {
+    "title": "Figma Auto Layout Tips",
+    "url": "https://example.com/figma-auto-layout",
+    "description": "Useful tips for working with Auto Layout in Figma",
+    "category": "design",
+    "tags": ["figma", "ui", "design"],
+    "isFavorite": false
+  },
+  {
+    "title": "Design System Fundamentals",
+    "url": "https://example.com/design-system",
+    "description": "Core concepts you need to understand when building a design system",
+    "category": "design",
+    "tags": ["design-system", "ui", "component"],
+    "isFavorite": true
+  },
+  {
+    "title": "UX Case Study Examples",
+    "url": "https://example.com/ux-case-study",
+    "description": "Collection of UX case study examples for inspiration",
+    "category": "design",
+    "tags": ["ux", "design", "case-study"],
+    "isFavorite": false
+  },
+  {
+    "title": "Resume Writing for Developers",
+    "url": "https://example.com/dev-resume",
+    "description": "Tips on writing an effective resume as a software developer",
+    "category": "career",
+    "tags": ["resume", "career", "developer"],
+    "isFavorite": true
+  },
+  {
+    "title": "Backend Portfolio Project Ideas",
+    "url": "https://example.com/backend-portfolio",
+    "description": "Ideas and structure for building a backend portfolio project",
+    "category": "career",
+    "tags": ["portfolio", "backend", "career"],
+    "isFavorite": false
+  },
+  {
+    "title": "Tech Interview Preparation Guide",
+    "url": "https://example.com/interview-prep",
+    "description": "Strategies and tips for preparing technical interviews",
+    "category": "career",
+    "tags": ["interview", "career", "study"],
+    "isFavorite": true
+  },
+  {
+    "title": "Deep Work Summary",
+    "url": "https://example.com/deep-work",
+    "description": "Summary of key ideas from the book Deep Work",
+    "category": "productivity",
+    "tags": ["focus", "productivity", "habit"],
+    "isFavorite": true
+  },
+  {
+    "title": "Notion Dashboard Setup",
+    "url": "https://example.com/notion-dashboard",
+    "description": "How to build a personal productivity dashboard in Notion",
+    "category": "productivity",
+    "tags": ["notion", "workflow", "productivity"],
+    "isFavorite": false
+  },
+  {
+    "title": "Time Blocking Method",
+    "url": "https://example.com/time-blocking",
+    "description": "A productivity technique to manage your time effectively",
+    "category": "productivity",
+    "tags": ["time", "productivity", "planning"],
+    "isFavorite": false
+  },
+  {
+    "title": "Learning How to Learn Notes",
+    "url": "https://example.com/learning-how-to-learn",
+    "description": "Notes on effective learning techniques and strategies",
+    "category": "etc",
+    "tags": ["learning", "study"],
+    "isFavorite": false
+  },
+  {
+    "title": "Interesting Article About AI Trends",
+    "url": "https://example.com/ai-article",
+    "description": "An overview of current trends in artificial intelligence",
+    "category": "etc",
+    "tags": ["ai", "technology"],
+    "isFavorite": true
+  },
+  {
+    "title": "Startup Ideas Collection",
+    "url": "https://example.com/startup-ideas",
+    "description": "A collection of interesting startup ideas and inspirations",
+    "category": "etc",
+    "tags": ["startup", "ideas"],
+    "isFavorite": false
+  }
+]
