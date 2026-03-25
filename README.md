@@ -16,6 +16,16 @@ Key highlights:
 
 ---
 
+## 🌐 Live Demo
+
+API Base URL:  
+https://linkvault-bookmark-api.onrender.com
+
+Swagger Docs:  
+https://linkvault-bookmark-api.onrender.com/api-docs/
+
+---
+
 ## 🚀 Features
 
 ### ✅ Bookmark CRUD
@@ -152,7 +162,7 @@ node dev-data/data/import-dev-data.js --delete
 
 - This API does not include authentication (public API)
 - Tags filter currently supports **single tag filtering**
-- Swagger is available only in **development mode**
+- Swagger UI is available at /api-docs in both development and production.
 
 ---
 
@@ -185,16 +195,6 @@ Test coverage includes:
 - Error handling (invalid ID, non-existent resources)
 
 All test cases passed successfully, confirming the stability and reliability of the API.
-
----
-
-## 🌐 Live Demo
-
-API Base URL:  
-https://linkvault-bookmark-api.onrender.com
-
-Swagger Docs:  
-https://linkvault-bookmark-api.onrender.com/api-docs/
 
 ---
 
