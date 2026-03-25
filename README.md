@@ -188,6 +188,16 @@ All test cases passed successfully, confirming the stability and reliability of 
 
 ---
 
+## 🌐 Live Demo
+
+API Base URL:  
+https://linkvault-bookmark-api.onrender.com
+
+Swagger Docs:  
+https://linkvault-bookmark-api.onrender.com/api-docs/
+
+---
+
 ## 👨‍💻 Author
 
 **Sanghun Han**\

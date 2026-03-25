@@ -17,8 +17,14 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:3000/api/v1",
-        description: "Local server",
+        url:
+          process.env.NODE_ENV === "production"
+            ? "https://linkvault-bookmark-api.onrender.com/api/v1"
+            : "http://localhost:3000/api/v1",
+        description:
+          process.env.NODE_ENV === "production"
+            ? "Production server"
+            : "Local server",
       },
     ],
     tags: [
