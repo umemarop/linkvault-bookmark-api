@@ -24,6 +24,9 @@ https://linkvault-bookmark-api.onrender.com
 Swagger Docs:  
 https://linkvault-bookmark-api.onrender.com/api-docs/
 
+> ⚠️ Note: This API is hosted on Render (free tier).
+> The server may take up to 30–50 seconds to respond on the first request due to cold start.
+
 ---
 
 ## 🚀 Features
