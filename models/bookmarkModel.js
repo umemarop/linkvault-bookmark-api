@@ -2,6 +2,8 @@ const mongoose = require("mongoose");
 const slugify = require("slugify");
 const validator = require("validator");
 
+// Schema for bookmark resource
+// Includes validation rules and data normalization
 const bookmarkSchema = new mongoose.Schema(
   {
     title: {
@@ -10,13 +12,13 @@ const bookmarkSchema = new mongoose.Schema(
       trim: true,
       maxlength: [
         40,
-        "A bookmark name must have less or equal than 40 characters",
+        "A bookmark title must have less or equal than 40 characters",
       ],
       minlength: [
         1,
-        "A bookmark name must have more or equal than 1 characters",
+        "A bookmark title must have more or equal than 1 characters",
       ],
-      required: [true, "A bookmark must have a name"],
+      required: [true, "A bookmark must have a title"],
     },
     url: {
       type: String,
@@ -54,13 +56,32 @@ const bookmarkSchema = new mongoose.Schema(
     },
   },
   {
-    timestamps: true,
-    versionKey: false,
+    timestamps: true, // adds createdAt and updatedAt
+    versionKey: false, // removes __v field
   },
 );
 
+// Automatically generate slug from title before saving document
 bookmarkSchema.pre("save", function (next) {
   this.slug = slugify(this.title, { lower: true });
+  next();
+});
+
+// Ensure slug is updated when title changes during update operations
+bookmarkSchema.pre("findOneAndUpdate", function (next) {
+  const update = this.getUpdate() || {};
+
+  // Normalize update object structure
+  if (!update.$set) {
+    update.$set = {};
+  }
+
+  const title = update.title || update.$set.title;
+
+  if (title) {
+    update.$set.slug = slugify(title, { lower: true });
+  }
+
   next();
 });
 
