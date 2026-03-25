@@ -36,9 +36,7 @@ app.use(express.urlencoded({ extended: true, limit: "10kb" }));
 // Sanitize request data against NoSQL injection
 app.use(mongoSanitize());
 
-if (process.env.NODE_ENV === "development") {
-  app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-}
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Health check / API welcome route
 app.get("/", (req, res) => {
