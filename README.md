@@ -90,7 +90,7 @@ Key highlights:
 
 ```bash
 git clone https://github.com/umemarop/linkvault-bookmark-api.git
-cd linkvault-api
+cd linkvault-bookmark-api
 ```
 
 ### 2. Install dependencies
@@ -150,8 +150,8 @@ node dev-data/data/import-dev-data.js --delete
 
 ## ⚠️ Important Notes
 
-- This API does not include authentication (public API)\
-- Tags filter currently supports **single tag filtering**\
+- This API does not include authentication (public API)
+- Tags filter currently supports **single tag filtering**
 - Swagger is available only in **development mode**
 
 ---
@@ -170,6 +170,21 @@ node dev-data/data/import-dev-data.js --delete
   "message": "Invalid ID"
 }
 ```
+
+---
+
+## ✅ Testing & Validation
+
+All API endpoints were thoroughly tested using Postman and Swagger UI.
+
+Test coverage includes:
+
+- CRUD operations for bookmarks
+- Advanced query features (filtering, sorting, pagination)
+- Input validation (invalid data, missing fields)
+- Error handling (invalid ID, non-existent resources)
+
+All test cases passed successfully, confirming the stability and reliability of the API.
 
 ---
 
